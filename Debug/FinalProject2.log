@@ -1,0 +1,6 @@
+﻿  FinalProject2.cpp
+  vector3.cpp
+C:\Users\vmsai\Documents\GitHub\COMP390\FinalProject2\vector3.cpp(9,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\vmsai\Documents\GitHub\COMP390\FinalProject2\vector3.cpp(97,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  FinalProject2.vcxproj -> C:\Users\vmsai\Documents\GitHub\COMP390\FinalProject2\Debug\FinalProject2.exe
