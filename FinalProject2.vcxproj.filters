@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FinalProject2.cpp">
+    <ClCompile Include="Basic-3D-Scene-Creation-in-OpenGL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="vector3.cpp">
