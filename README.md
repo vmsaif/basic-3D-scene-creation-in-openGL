@@ -13,9 +13,16 @@ This project demonstrates the creation of a 3D scene using OpenGL. The scene enc
 - An atmospheric attenuation effect, specifically fog.
 - Efficient rendering using complex display lists.
 
+
 ## Requirements
 
+### This Repository
 
+Clone this repository into your local machine using the following command:
+
+```bash
+git clone https://github.com/vmsaif/basic-3D-scene-creation-in-openGL
+```
 
 ### Visual Studio
 
@@ -23,9 +30,10 @@ Ensure you have Visual Studio installed. If not, download it from [Visual Studio
 
 ### GLUT Library
 
-This project requires the `glut.h` library. The easiest way to set it up in Visual Studio is as follows:
+This project requires the OpenGL library or `glut.h`. The easiest way to set it up in Visual Studio is as follows:
 
-1. Open your project in Visual Studio.
+1. Go to the directory where you cloned the project.
+2. Open the `basic-3D-scene-creation-in-openGL.sln` file to open the project in Visual Studio.
 2. Click on `Project` in the menu bar.
 3. Select `Manage NuGet Packages`.
 4. Click on the "Browse" tab.
@@ -42,8 +50,3 @@ This project requires the `glut.h` library. The easiest way to set it up in Visu
 ## Credits
 
 The background image used in this project was sourced from [Freepik](https://www.freepik.com/free-vector/mountain-background_995152.htm#query=bitmap%20landscape&position=8&from_view=search&track=ais).
-
-## Author
-
-**Saif Mahmud**  
-Date: 5th March 2023

@@ -19,6 +19,7 @@ Recycle.bin
 
 # VS Code directories
 .vscode/
+.vs/
 
 # Windows Installer files
 *.cab
@@ -49,6 +50,8 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+[Ll]ogs/
+
 
 
 
