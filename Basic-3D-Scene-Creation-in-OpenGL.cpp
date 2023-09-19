@@ -1,10 +1,8 @@
 
 /*
     Author: Saif Mahmud
-    Student ID: 3433058
     Date : 5 / 3 / 2023
-    Course: COMP 390
-    Final Project - Option 1
+
     Purpose: Creating a scene that has 
         1. a textured background;
         2. five 3D composite objects, each made up of at least five geometric shapes;
@@ -12,12 +10,10 @@
         4. an atmospheric attenuation effect - fog.
 
     Also have used complex display lists for efficient rendering.
-
-    Background image downloaded from Freepik: https://www.freepik.com/free-vector/mountain-background_995152.htm#query=bitmap%20landscape&position=8&from_view=search&track=ais 
 */
 
 #include <iostream>
-#include "gl/glut.h"
+#include <GL/glut.h>
 #include <fstream>
 #include "windows.h"
 #include <string>
@@ -854,7 +850,7 @@ int main(int argc, char** argv)
     glutInitWindowSize(500, 500); //set display-window width and height
     glutInitWindowPosition(100, 100);
 
-    int windowHandle = glutCreateWindow("FINAL_PROJECT - OPTION 1"); //create display window
+    int windowHandle = glutCreateWindow("Basic 3D Scene in OpenGL"); //create display window
     glutSetWindow(windowHandle);
 
     glutDisplayFunc(display); //call display function
@@ -862,5 +858,7 @@ int main(int argc, char** argv)
 
     initialize(); // initialize OpenGL
     glutMainLoop(); //display everything and wait
+
+    return EXIT_SUCCESS;
 
 }
