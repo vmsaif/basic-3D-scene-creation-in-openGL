@@ -15,6 +15,8 @@ This project demonstrates the creation of a 3D scene using OpenGL. The scene enc
 
 ## Requirements
 
+
+
 ### Visual Studio
 
 Ensure you have Visual Studio installed. If not, download it from [Visual Studio Official Website](https://visualstudio.microsoft.com/).

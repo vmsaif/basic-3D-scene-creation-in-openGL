@@ -35,11 +35,20 @@ Recycle.bin
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
 
-# Unwanted directories
-bin/
-obj/
-Debug/
-Release/
-.vs/
+# Build results
+packages/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
 
 
